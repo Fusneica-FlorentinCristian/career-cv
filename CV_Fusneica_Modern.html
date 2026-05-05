@@ -85,17 +85,17 @@
         }
 
         .left-column {
-            width: 280px;
+            width: 230px;
             background: #4a5f7f;
-            color: white;
-            padding: 40px 30px;
+            color: #ffffff;
+            padding: 40px 24px;
             flex-shrink: 0;
         }
 
         .right-column {
             flex: 1;
             background: #596c85;
-            color: white;
+            color: #ffffff;
             padding: 40px 35px 40px 45px;
             position: relative;
         }
@@ -118,7 +118,8 @@
             letter-spacing: 2px;
             margin-bottom: 20px;
             padding-bottom: 8px;
-            border-bottom: 2px solid rgba(255,255,255,0.3);
+            border-bottom: 2px solid rgba(255,255,255,0.4);
+            color: #ffffff;
         }
 
         /* Left Column Styles */
@@ -272,7 +273,7 @@
 
         /* Make specific long interest lines smaller and prevent wrapping so they stay on one line */
         .list-item.small-inline {
-            font-size: 9px;
+            font-size: 8.5px;
             line-height: 1.2;
             white-space: nowrap;
         }
@@ -321,6 +322,7 @@
             font-weight: 700;
             text-transform: uppercase;
             letter-spacing: 1px;
+            color: #ffffff;
         }
 
         .experience-date {
@@ -339,7 +341,7 @@
 
         .experience-tech {
             font-size: 10px;
-            font-weight: 600;
+            font-weight: 700;
             margin-bottom: 8px;
             color: #ffd4ca;
         }
@@ -348,6 +350,7 @@
             font-size: 10.5px;
             line-height: 1.5;
             margin-bottom: 8px;
+            color: #e8edf3;
         }
 
         .experience-list {
@@ -360,6 +363,12 @@
             padding-left: 15px;
             position: relative;
             font-size: 10.5px;
+            color: #e8edf3;
+        }
+
+        .experience-list li strong {
+            color: #ffffff;
+            font-weight: 700;
         }
 
         .experience-list li::before {
@@ -450,9 +459,9 @@
 
             /* Tighten columns */
             .left-column {
-                width: 255px;
+                width: 220px;
                 flex-shrink: 0;
-                padding: 18px 20px;
+                padding: 18px 18px;
             }
 
             .right-column {
@@ -493,7 +502,7 @@
             }
 
             .list-item.small-inline {
-                font-size: 9px;
+                font-size: 8px;
             }
 
             /* Right column items */
@@ -759,13 +768,13 @@
                         <div class="experience-company">Alten (contracted to Autodesk)</div>
                         <div class="experience-tech">Technologies: .NET, Azure, Jenkins, Groovy, PowerShell, BAT, AWS ECS</div>
                         <div class="experience-description">
-                            Working on the maintenance, improvement and expansion of a complex .NET-based CI/CD ecosystem on Azure, following the successful completion of a large-scale migration from AWS ECS. Responsible for keeping the setup healthy, implementing new automated tests, and integrating multiple pipelines.
+                            Working on the maintenance, improvement and expansion of a complex <strong>.NET</strong>-based <strong>CI/CD</strong> ecosystem on <strong>Azure</strong>, following the successful completion of a large-scale migration from <strong>AWS ECS</strong>. Responsible for keeping the setup healthy, implementing new automated tests, and integrating multiple pipelines.
                         </div>
                         <ul class="experience-list">
-                            <li>Successfully delivered the migration of CI/CD pipelines from AWS ECS to Azure with minimal disruption</li>
-                            <li>Maintaining and continuously improving Jenkins pipelines, Groovy scripts, and Windows (BAT/PowerShell) scripts for reliability and reusable automation</li>
-                            <li>Implementing new automated tests and integrations across multiple CI/CD pipelines</li>
-                            <li>Optimized pre-build packaging flows into smaller components to speed up .NET build times</li>
+                            <li>Successfully delivered the migration of CI/CD pipelines from <strong>AWS ECS</strong> to <strong>Azure</strong> with minimal disruption</li>
+                            <li>Maintaining and continuously improving <strong>Jenkins</strong> pipelines, <strong>Groovy</strong> scripts, and Windows (<strong>BAT/PowerShell</strong>) scripts for reliability and reusable automation</li>
+                            <li>Implementing new automated tests and integrations across multiple <strong>CI/CD</strong> pipelines</li>
+                            <li>Optimized pre-build packaging flows into smaller components to speed up <strong>.NET</strong> build times</li>
                             <li>Implemented dynamic tool/dependency discovery and smart fallback logic across environments</li>
                         </ul>
                     </div>
@@ -778,8 +787,8 @@
                         <div class="experience-company">Independent Contractor</div>
                         <div class="experience-tech">Technologies: React, Next.js, Python, AI Integration, Sage X3 (4GL)</div>
                         <ul class="experience-list">
-                            <li>Compiled and built the UI/UX for (4GL) using React, enabling natural-language-driven database querying</li>
-                            <li>Developed advanced migration scripts from Sage X3 (4GL) and delivered advanced ERP features and integrations, focusing on AI integration, automation, and modernization</li>
+                            <li>Compiled and built the UI/UX for (4GL) using <strong>React</strong>, enabling natural-language-driven database querying</li>
+                            <li>Developed advanced migration scripts from <strong>Sage X3</strong> (4GL) and delivered advanced ERP features and integrations, focusing on <strong>AI integration</strong>, automation, and modernization</li>
                         </ul>
                     </div>
 
@@ -791,9 +800,9 @@
                         <div class="experience-company">Cognyte</div>
                         <div class="experience-tech">Technologies: C#/.NET, Ansible, Jenkins, Groovy, Bitbucket, Wix, Python</div>
                         <ul class="experience-list">
-                            <li>Maintained and enhanced Windows services in C#/.NET</li>
-                            <li>Automated deployments and end-to-end CI/CD using Ansible, Bitbucket, Jenkins, Groovy scripts, Kinook's Visual Build, and Wix to streamline software delivery</li>
-                            <li>Took ownership (features, optimizations, bug fixing) for over ~40 microservices, 15 of which were core services</li>
+                            <li>Maintained and enhanced Windows services in <strong>C#/.NET</strong></li>
+                            <li>Automated deployments and end-to-end <strong>CI/CD</strong> using <strong>Ansible</strong>, Bitbucket, <strong>Jenkins</strong>, Groovy scripts, Kinook's Visual Build, and Wix to streamline software delivery</li>
+                            <li>Took ownership (features, optimizations, bug fixing) for over ~40 <strong>microservices</strong>, 15 of which were core services</li>
                             <li>Developed business-critical features while collaborating with architects, DevOps, QA, and Product</li>
                             <li>Led training, mentoring, and onboarding of new team members</li>
                         </ul>
@@ -807,9 +816,9 @@
                         <div class="experience-company">CS Vision</div>
                         <div class="experience-tech">Technologies: ASP.NET MVC, WPF, Java, jQuery</div>
                         <ul class="experience-list">
-                            <li>Maintained, enhanced, and troubleshooted ASP.NET MVC applications</li>
-                            <li>Developed a WPF onboard unit for public transport, deployed in major Romanian cities</li>
-                            <li>Independently migrated a project from Java to WPF, quickly adapting to new technologies</li>
+                            <li>Maintained, enhanced, and troubleshooted <strong>ASP.NET MVC</strong> applications</li>
+                            <li>Developed a <strong>WPF</strong> onboard unit for public transport, deployed in major Romanian cities</li>
+                            <li>Independently migrated a project from <strong>Java</strong> to <strong>WPF</strong>, quickly adapting to new technologies</li>
                         </ul>
                     </div>
                 </div>
