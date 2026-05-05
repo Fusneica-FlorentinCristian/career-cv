@@ -409,13 +409,17 @@
             .container {
                 width: 210mm;
                 max-width: 210mm;
+                height: 297mm;
                 margin: 0;
+                display: flex;
+                flex-direction: column;
             }
 
             /* Tighten header */
             .header {
                 padding: 12px 50px 8px 50px;
                 page-break-after: avoid;
+                flex-shrink: 0;
             }
 
             .name {
@@ -437,10 +441,11 @@
                 line-height: 1.4;
             }
 
-            /* Remove viewport-based height */
+            /* Remove viewport-based height, fill remaining container space */
             .main-content {
                 display: flex;
                 min-height: 0;
+                flex: 1;
             }
 
             /* Tighten columns */
