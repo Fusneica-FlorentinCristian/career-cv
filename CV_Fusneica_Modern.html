@@ -3,11 +3,34 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Florentin-Cristian Fusneica - .NET Developer & DevOps</title>
-    <meta name="description" content="DevOps Engineer and .NET Developer with 3.5+ years experience in C#, Python, React, CI/CD, Azure, AWS, Jenkins, Ansible">
+    <title>Florentin-Cristian Fusneica - DevOps Engineer | Platform &amp; CI/CD</title>
+    <meta name="description" content="One-page ATS-friendly CV of Florentin-Cristian Fusneica, DevOps / Platform Engineer with 4+ years in CI/CD, Jenkins, Azure, PowerShell, Python, .NET and automation-heavy delivery systems.">
     <meta name="keywords" content=".NET, C#, Python, DevOps, Azure, AWS, CI/CD, Jenkins, Groovy, Ansible, React, Next.js, SQL, WPF, ASP.NET, MVC, Bitbucket, Wix, PowerShell, BAT, Windows Services, Microservices, ERP, Sage X3, AI Integration, Automation, Django, Java, jQuery, HTML, CSS, JavaScript, OCA Certified">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <!--
+        CV STANDARD v1 — Florentin Fusneica
+
+        1. Default to a single A4 page. Only expand to 2 pages for substantially more senior variants.
+        2. Use a print-first two-column editorial layout with a narrow information rail and wider impact column.
+        3. Keep the palette restrained: slate foundation, one muted accent, no gradients, no decorative strokes.
+        4. No photo, no gimmicks, no skill bars/dots, no copy widgets — clarity beats novelty.
+        5. Sidebar holds contact, target-fit, core stack, strengths, languages, certifications.
+        6. Main column holds summary, experience, education — in that order.
+        7. Every role gets 2-4 bullets max, written as action + system + outcome.
+        8. Claims must be defensible and aligned with real experience; avoid inflated tooling depth.
+        9. ATS-safe by default: semantic HTML, selectable text, hidden keyword block, clean typography.
+        10. Signature: quiet, technical, sharp — like a platform engineer made a magazine layout.
+    -->
     <style>
+        :root {
+            --ink: #243341;
+            --muted: #5c6977;
+            --accent: #d98774;
+            --accent-strong: #38526d;
+            --rule: #d7e0e8;
+            --sidebar-bg: #fbfcfd;
+        }
+
         * {
             margin: 0;
             padding: 0;
@@ -15,537 +38,241 @@
         }
 
         body {
-            font-family: 'Calibri', 'Helvetica Neue', Helvetica, Arial, sans-serif;
-            font-size: 11px;
-            line-height: 1.5;
-            color: #2c3e50;
-            background: #f5f5f5;
+            font-family: 'Segoe UI', 'Helvetica Neue', Arial, sans-serif;
+            font-size: 10.6pt;
+            line-height: 1.42;
+            color: var(--ink);
+            background: #eef2f5;
         }
 
-        .container {
-            max-width: 210mm;
-            margin: 0 auto;
-            background: white;
+        @page {
+            size: 210mm 297mm;
+            margin: 0;
         }
 
-        /* Header Section */
-        .header {
-            background: linear-gradient(135deg, #e89b8b 0%, #ea9f92 100%);
-            padding: 30px 50px 20px 50px;
-            text-align: center;
-            position: relative;
+        .page {
+            width: 210mm;
+            min-height: 297mm;
+            margin: 8px auto;
+            padding: 14mm 13mm 12mm 13mm;
+            display: grid;
+            grid-template-columns: 0.96fr 2.04fr;
+            gap: 0 24px;
+            background: #ffffff;
+            box-shadow: 0 12px 34px rgba(25, 35, 52, 0.08);
+            overflow: hidden;
         }
 
-        .name-box {
-            border: 4px solid #4a5f7f;
-            border-left: none;
-            border-right: none;
-            padding: 15px 30px;
-            margin: 0 auto 15px;
-            max-width: 650px;
-            display: inline-block;
+        .sidebar {
+            background: var(--sidebar-bg);
+            border-right: 2.5px solid var(--accent);
+            padding-right: 18px;
         }
 
-        .name {
-            font-size: 28px;
+        .identity {
+            margin-bottom: 12px;
+        }
+
+        .sidebar h1 {
+            font-size: 23pt;
+            line-height: 1.03;
+            color: var(--accent-strong);
+            letter-spacing: -0.6px;
+            margin-bottom: 6px;
+        }
+
+        .headline {
+            font-size: 9.35pt;
             font-weight: 700;
-            color: white;
-            letter-spacing: 2px;
             text-transform: uppercase;
-            font-family: 'Arial Black', sans-serif;
-            -webkit-text-stroke: 2.5px #2c3e5086;
-            paint-order: stroke fill;
-            white-space: nowrap;
+            letter-spacing: 1.05px;
+            color: var(--ink);
+            line-height: 1.35;
         }
 
-        .job-title {
-            font-size: 16px;
-            font-weight: 700;
-            color: #4a5f7f;
-            letter-spacing: 2px;
-            text-transform: uppercase;
-            margin-top: 8px;
-        }
-
-        .tagline {
-            color: white;
-            font-size: 11px;
-            line-height: 1.5;
-            max-width: 650px;
-            margin: 0 auto;
-            font-weight: 600;
-            -webkit-text-stroke: 2.5px #2c3e5086;
-            paint-order: stroke fill;
-        }
-
-        /* Main Content */
-        .main-content {
-            display: flex;
-            min-height: calc(100vh - 200px);
-        }
-
-        .left-column {
-            width: 230px;
-            background: #4a5f7f;
-            color: #ffffff;
-            padding: 40px 24px;
-            flex-shrink: 0;
-        }
-
-        .right-column {
-            flex: 1;
-            background: #596c85;
-            color: #ffffff;
-            padding: 40px 35px 40px 45px;
-            position: relative;
-        }
-
-        .right-column::before {
-            content: "";
-            position: absolute;
-            left: 0;
-            top: 0;
-            bottom: 0;
-            width: 4px;
-            background: #e89b8b;
-        }
-
-        /* Section Titles */
         .section-title {
-            font-size: 16px;
+            font-size: 9.2pt;
             font-weight: 700;
             text-transform: uppercase;
-            letter-spacing: 2px;
-            margin-bottom: 20px;
-            padding-bottom: 8px;
-            border-bottom: 2px solid rgba(255,255,255,0.4);
-            color: #ffffff;
-        }
-
-        /* Left Column Styles */
-        .section {
-            margin-bottom: 35px;
-            page-break-inside: avoid;
+            letter-spacing: 1.25px;
+            color: var(--accent-strong);
+            margin-top: 18px;
+            margin-bottom: 7px;
+            border-bottom: 1.5px solid var(--rule);
+            padding-bottom: 4px;
         }
 
         .contact-item {
-            margin-bottom: 15px;
-        }
-
-        .contact-item a.contact-link {
-            color: white;
-            text-decoration: none;
+            margin-bottom: 8px;
+            font-size: 9.25pt;
             display: flex;
             align-items: flex-start;
-            gap: 10px;
-            width: 100%;
-            position: relative;
+            gap: 8px;
         }
 
-        .contact-item a.contact-link:hover {
-            opacity: 0.8;
-            cursor: pointer;
-        }
-
-        .copy-btn {
-            position: absolute;
-            right: 0;
-            top: 50%;
-            transform: translateY(-50%);
-            background: rgba(232, 155, 139, 0.3);
-            border: 1px solid #e89b8b;
-            color: #e89b8b;
-            padding: 4px 8px;
-            border-radius: 4px;
-            font-size: 9px;
-            cursor: pointer;
-            opacity: 0;
-            transition: opacity 0.2s;
-        }
-
-        .contact-item:hover .copy-btn {
-            opacity: 1;
-        }
-
-        .copy-btn:hover {
-            background: rgba(232, 155, 139, 0.5);
-        }
-
-        .copy-btn:active {
-            transform: translateY(-50%) scale(0.95);
-        }
-
-        .contact-item a.contact-link {
-            color: white;
-            text-decoration: none;
-            display: flex;
-            align-items: flex-start;
-            gap: 10px;
-            width: 100%;
-        }
-
-        .contact-item a.contact-link:hover {
-            opacity: 0.8;
+        .contact-item i {
+            color: var(--accent);
+            width: 14px;
+            text-align: center;
+            flex-shrink: 0;
+            margin-top: 2px;
+            font-size: 9.5pt;
         }
 
         .contact-item a {
-            color: white;
+            color: var(--accent-strong);
             text-decoration: none;
-            display: flex;
-            align-items: flex-start;
-            gap: 10px;
-            width: 100%;
         }
 
         .contact-item a:hover {
-            opacity: 0.8;
+            text-decoration: underline;
         }
 
-        .contact-icon {
-            font-size: 14px;
-            width: 20px;
-            flex-shrink: 0;
-            text-align: center;
-            color: #e89b8b;
-        }
-
-        .contact-label {
-            font-weight: 700;
-            font-size: 10px;
-            text-transform: uppercase;
-            letter-spacing: 1px;
-            margin-bottom: 3px;
-        }
-
-        .contact-value {
-            font-size: 10px;
+        .contact-text {
             word-break: break-word;
-            flex: 1;
         }
 
-        .contact-value a {
-            color: white;
-            text-decoration: none;
-            display: inline;
-        }
-
-        /* Skills Section */
-        .skill-item {
-            margin-bottom: 15px;
-        }
-
-        .skill-name {
-            font-size: 11px;
-            font-weight: 600;
-            text-transform: uppercase;
-            margin-bottom: 5px;
-            letter-spacing: 1px;
-        }
-
-        .skill-dots {
-            display: flex;
-            gap: 5px;
-            align-items: center;
-        }
-
-        .dot {
-            width: 14px;
-            height: 14px;
-            border-radius: 50%;
-            background: #e89b8b;
-        }
-
-        .dot.half {
-            background: linear-gradient(90deg, #e89b8b 50%, rgba(255,255,255,0.2) 50%);
-        }
-
-        .dot.empty {
-            background: rgba(255,255,255,0.2);
-        }
-
-        .list-item {
-            margin-bottom: 8px;
-            padding-left: 15px;
-            position: relative;
-            font-size: 10.5px;
-            line-height: 1.4;
-        }
-
-        /* Make specific long interest lines smaller and prevent wrapping so they stay on one line */
-        .list-item.small-inline {
-            font-size: 8.5px;
-            line-height: 1.2;
+        .contact-oneline {
+            font-size: 8.15pt;
             white-space: nowrap;
+            overflow: hidden;
         }
 
-        .list-item::before {
-            content: "●";
-            position: absolute;
-            left: 0;
-            color: #e89b8b;
+        .sidebar-list {
+            list-style: none;
+            padding: 0;
         }
 
-        .reference-item {
-            margin-bottom: 20px;
+        .sidebar-list li {
+            margin-bottom: 5px;
+            font-size: 9.55pt;
+            line-height: 1.38;
         }
 
-        .reference-name {
-            font-weight: 700;
-            font-size: 11px;
+        .sidebar-list li strong {
+            color: var(--accent-strong);
         }
 
-        .reference-title {
-            font-size: 10px;
-            font-style: italic;
-            margin-bottom: 3px;
+        .main {
+            padding-left: 4px;
         }
 
-        .reference-contact {
-            font-size: 9.5px;
+        .main h2 {
+            font-size: 12pt;
+            text-transform: uppercase;
+            letter-spacing: 1.05px;
+            color: var(--accent-strong);
+            border-bottom: 2px solid var(--accent-strong);
+            padding-bottom: 3px;
+            margin-bottom: 9px;
+            margin-top: 16px;
         }
 
-        /* Right Column Styles */
-        .experience-item, .education-item {
-            margin-bottom: 30px;
-            page-break-inside: avoid;
+        .main h2:first-child {
+            margin-top: 0;
         }
 
-        .experience-header {
+        .summary {
+            font-size: 10.15pt;
+            color: #3e4b59;
+            margin-bottom: 4px;
+            line-height: 1.52;
+        }
+
+        .entry {
+            margin-bottom: 11px;
+        }
+
+        .entry-header {
             display: flex;
             justify-content: space-between;
-            margin-bottom: 8px;
             align-items: baseline;
+            gap: 10px;
         }
 
-        .experience-title {
-            font-size: 14px;
+        .entry-title {
             font-weight: 700;
-            text-transform: uppercase;
-            letter-spacing: 1px;
-            color: #ffffff;
+            font-size: 10.9pt;
+            color: var(--ink);
         }
 
-        .experience-date {
-            font-size: 10px;
+        .entry-date {
+            font-size: 9pt;
+            color: var(--muted);
             font-style: italic;
             white-space: nowrap;
-            margin-left: 15px;
         }
 
-        .experience-company {
-            font-size: 11px;
+        .entry-subtitle {
+            font-size: 9.25pt;
+            color: var(--muted);
             font-style: italic;
-            color: #e89b8b;
-            margin-bottom: 10px;
+            margin-bottom: 4px;
         }
 
-        .experience-tech {
-            font-size: 10px;
-            font-weight: 700;
-            margin-bottom: 8px;
-            color: #ffd4ca;
+        .entry-tech {
+            font-size: 9pt;
+            color: var(--accent-strong);
+            font-weight: 600;
+            margin-bottom: 4px;
         }
 
-        .experience-description {
-            font-size: 10.5px;
-            line-height: 1.5;
-            margin-bottom: 8px;
-            color: #e8edf3;
-        }
-
-        .experience-list {
+        .entry ul {
             list-style: none;
             padding-left: 0;
         }
 
-        .experience-list li {
-            margin-bottom: 6px;
-            padding-left: 15px;
+        .entry ul li {
             position: relative;
-            font-size: 10.5px;
-            color: #e8edf3;
+            padding-left: 13px;
+            margin-bottom: 3px;
+            font-size: 9.75pt;
+            line-height: 1.42;
         }
 
-        .experience-list li strong {
-            color: #ffffff;
-            font-weight: 700;
-        }
-
-        .experience-list li::before {
-            content: "•";
+        .entry ul li::before {
+            content: "–";
             position: absolute;
             left: 0;
-            color: #e89b8b;
+            top: 0;
+            color: var(--accent);
             font-weight: 700;
         }
 
-        .education-degree {
-            font-size: 13px;
-            font-weight: 700;
-            margin-bottom: 5px;
-        }
-
-        .education-school {
-            font-size: 11px;
+        .edu-note {
+            margin-top: 5px;
+            font-size: 9.15pt;
             font-style: italic;
-            color: #e89b8b;
+            color: var(--muted);
         }
 
-        /* Hidden keywords for ATS */
         .keywords-hidden {
             position: absolute;
             left: -9999px;
+            width: 1px;
+            height: 1px;
+            overflow: hidden;
             font-size: 1px;
             color: transparent;
         }
 
-        @page {
-            size: A4 portrait;
-            margin: 0;
-        }
-
         @media print {
             html, body {
-                width: 210mm;
-                height: 297mm;
                 margin: 0;
                 padding: 0;
-                background: white;
+                background: #ffffff;
                 -webkit-print-color-adjust: exact;
                 print-color-adjust: exact;
             }
 
-            .container {
-                width: 210mm;
-                max-width: 210mm;
-                height: 297mm;
+            .page {
                 margin: 0;
-                display: flex;
-                flex-direction: column;
+                box-shadow: none;
+                min-height: 297mm;
             }
 
-            /* Tighten header */
-            .header {
-                padding: 12px 50px 8px 50px;
-                page-break-after: avoid;
-                flex-shrink: 0;
-            }
-
-            .name {
-                font-size: 24px;
-            }
-
-            .name-box {
-                padding: 10px 30px;
-                margin-bottom: 8px;
-            }
-
-            .job-title {
-                font-size: 14px;
-                margin-top: 4px;
-            }
-
-            .tagline {
-                font-size: 10px;
-                line-height: 1.4;
-            }
-
-            /* Remove viewport-based height, fill remaining container space */
-            .main-content {
-                display: flex;
-                min-height: 0;
-                flex: 1;
-            }
-
-            /* Tighten columns */
-            .left-column {
-                width: 220px;
-                flex-shrink: 0;
-                padding: 18px 18px;
-            }
-
-            .right-column {
-                flex: 1;
-                padding: 18px 25px 18px 35px;
-            }
-
-            /* Tighten sections */
-            .section {
-                margin-bottom: 14px;
-                page-break-inside: avoid;
-            }
-
-            .section-title {
-                font-size: 13px;
-                letter-spacing: 1px;
-                margin-bottom: 8px;
-                padding-bottom: 5px;
-            }
-
-            /* Left column items */
-            .contact-item {
-                margin-bottom: 8px;
-            }
-
-            .skill-item {
-                margin-bottom: 7px;
-            }
-
-            .dot {
-                width: 12px;
-                height: 12px;
-            }
-
-            .list-item {
-                margin-bottom: 4px;
-                font-size: 10px;
-            }
-
-            .list-item.small-inline {
-                font-size: 8px;
-            }
-
-            /* Right column items */
-            .experience-item, .education-item {
-                margin-bottom: 11px;
-                page-break-inside: avoid;
-            }
-
-            .experience-header {
-                margin-bottom: 3px;
-            }
-
-            .experience-title {
-                font-size: 12px;
-            }
-
-            .experience-company {
-                margin-bottom: 4px;
-            }
-
-            .experience-tech {
-                margin-bottom: 4px;
-            }
-
-            .experience-description {
-                margin-bottom: 4px;
-                line-height: 1.4;
-            }
-
-            .experience-list li {
-                margin-bottom: 3px;
-            }
-
-            /* Hide interactive elements */
-            .copy-btn,
-            button.copy-btn {
-                display: none !important;
-            }
-
-            .contact-item a.contact-link:hover,
-            .contact-item a.contact-link:active,
-            .contact-item a.contact-link:focus {
-                opacity: 1;
+            a {
+                color: inherit;
             }
         }
     </style>
@@ -615,254 +342,145 @@
         EU, English, Romanian, Bilingual, Fluent English, Native Romanian.
     </div>
 
-    <div class="container">
-        <!-- Header -->
-        <div class="header">
-            <div class="name-box">
-                <div class="name">FLORENTIN-CRISTIAN FUSNEICA</div>
-                <div class="job-title">.NET Developer & DevOps</div>
-            </div>
-            <div class="tagline">
-                DevOps engineer with over 3.5 years of experience in .NET, Python, React, and CI/CD. 
-                Always eager to learn and tackle new challenges. <br>
-                Geek at heart—curious, passionate, driven to explore tech innovations.
-            </div>
-        </div>
-
-        <!-- Main Content -->
-        <div class="main-content">
-            <!-- Left Column -->
-            <div class="left-column">
-                <!-- Contact -->
-                <div class="section">
-                    <h2 class="section-title">Contact</h2>
-                    <div class="contact-item">
-                        <a href="tel:+40771434701" class="contact-link">
-                            <div class="contact-icon"><i class="fas fa-phone"></i></div>
-                            <div>
-                                <div class="contact-label">Phone</div>
-                                <div class="contact-value">+40771434701</div>
-                            </div>
-                            <button class="copy-btn" onclick="copyToClipboard(event, '+40771434701')"><i class="far fa-copy"></i></button>
-                        </a>
-                    </div>
-                    <div class="contact-item">
-                        <a href="mailto:fusneica.florentin.cristian@gmail.com" class="contact-link">
-                            <div class="contact-icon"><i class="fas fa-envelope"></i></div>
-                            <div>
-                                <div class="contact-label">Email</div>
-                                <div class="contact-value">fusneica.florentin.cristian@gmail.com</div>
-                            </div>
-                            <button class="copy-btn" onclick="copyToClipboard(event, 'fusneica.florentin.cristian@gmail.com')"><i class="far fa-copy"></i></button>
-                        </a>
-                    </div>
-                    <div class="contact-item">
-                        <a href="https://www.linkedin.com/in/fusneica-florentin" target="_blank" class="contact-link">
-                            <div class="contact-icon"><i class="fab fa-linkedin"></i></div>
-                            <div>
-                                <div class="contact-label">LinkedIn</div>
-                                <div class="contact-value">linkedin.com/in/fusneica-florentin</div>
-                            </div>
-                            <button class="copy-btn" onclick="copyToClipboard(event, 'https://www.linkedin.com/in/fusneica-florentin')"><i class="far fa-copy"></i></button>
-                        </a>
-                    </div>
-                </div>
-
-                <!-- Skills & Expertise -->
-                <div class="section">
-                    <h2 class="section-title">Skills & Expertise</h2>
-                    
-                    <div class="skill-item">
-                        <div class="skill-name">C# / .NET</div>
-                        <div class="skill-dots">
-                            <span class="dot"></span>
-                            <span class="dot"></span>
-                            <span class="dot"></span>
-                            <span class="dot"></span>
-                            <span class="dot empty"></span>
-                        </div>
-                    </div>
-
-                    <div class="skill-item">
-                        <div class="skill-name">Python</div>
-                        <div class="skill-dots">
-                            <span class="dot"></span>
-                            <span class="dot"></span>
-                            <span class="dot"></span>
-                            <span class="dot half"></span>
-                            <span class="dot empty"></span>
-                        </div>
-                    </div>
-
-                    <div class="skill-item">
-                        <div class="skill-name">DevOps (Pipelines)</div>
-                        <div class="skill-dots">
-                            <span class="dot"></span>
-                            <span class="dot"></span>
-                            <span class="dot"></span>
-                            <span class="dot"></span>
-                            <span class="dot"></span>
-                        </div>
-                    </div>
-
-                    <div class="skill-item">
-                        <div class="skill-name">React / Next.js</div>
-                        <div class="skill-dots">
-                            <span class="dot"></span>
-                            <span class="dot"></span>
-                            <span class="dot"></span>
-                            <span class="dot half"></span>
-                            <span class="dot empty"></span>
-                        </div>
-                    </div>
-
-                    <div class="skill-item">
-                        <div class="skill-name">Problem Solving</div>
-                        <div class="skill-dots">
-                            <span class="dot"></span>
-                            <span class="dot"></span>
-                            <span class="dot"></span>
-                            <span class="dot"></span>
-                            <span class="dot"></span>
-                        </div>
-                    </div>
-
-                </div>
-
-                <!-- Languages -->
-                <div class="section">
-                    <h2 class="section-title">Languages</h2>
-                    <div class="list-item">English (fluent)</div>
-                    <div class="list-item">Romanian (native)</div>
-                </div>
-
-                <!-- Certifications -->
-                <div class="section">
-                    <h2 class="section-title">Certifications</h2>
-                    <div class="list-item">Java 1 Associate (OCA)</div>
-                    <div class="list-item">C# Advanced</div>
-                </div>
-
-                <!-- Interests -->
-                    <div class="section">
-                        <h2 class="section-title">Interests</h2>
-                        <div class="list-item small-inline">Former competitive ballroom dancer (~12 years)</div>
-                        <div class="list-item">Improvised Comedy</div>
-                        <div class="list-item">Table Tennis & Volleyball</div>
-                        <div class="list-item">Board Games & DnD</div>
-                        <div class="list-item">Video games & Animation</div>
-                    </div>
+    <div class="page">
+        <aside class="sidebar">
+            <div class="identity">
+                <h1>Florentin-Cristian Fusneica</h1>
+                <p class="headline">DevOps Engineer · Platform / CI/CD / Build Systems</p>
             </div>
 
-            <!-- Right Column -->
-            <div class="right-column">
-                <!-- Work Experience -->
-                <div class="section">
-                    <h2 class="section-title">Work Experience</h2>
-
-                    <div class="experience-item">
-                        <div class="experience-header">
-                            <div class="experience-title">DevOps Engineer</div>
-                            <div class="experience-date">September 2025 - Present</div>
-                        </div>
-                        <div class="experience-company">Alten (contracted to Autodesk)</div>
-                        <div class="experience-tech">Technologies: .NET, Azure, Jenkins, Groovy, PowerShell, BAT, AWS ECS</div>
-                        <div class="experience-description">
-                            Working on the maintenance, improvement and expansion of a complex <strong>.NET</strong>-based <strong>CI/CD</strong> ecosystem on <strong>Azure</strong>, following the successful completion of a large-scale migration from <strong>AWS ECS</strong>. Responsible for keeping the setup healthy, implementing new automated tests, and integrating multiple pipelines.
-                        </div>
-                        <ul class="experience-list">
-                            <li>Successfully delivered the migration of CI/CD pipelines from <strong>AWS ECS</strong> to <strong>Azure</strong> with minimal disruption</li>
-                            <li>Maintaining and continuously improving <strong>Jenkins</strong> pipelines, <strong>Groovy</strong> scripts, and Windows (<strong>BAT/PowerShell</strong>) scripts for reliability and reusable automation</li>
-                            <li>Implementing new automated tests and integrations across multiple <strong>CI/CD</strong> pipelines</li>
-                            <li>Optimized pre-build packaging flows into smaller components to speed up <strong>.NET</strong> build times</li>
-                            <li>Implemented dynamic tool/dependency discovery and smart fallback logic across environments</li>
-                        </ul>
-                    </div>
-
-                    <div class="experience-item">
-                        <div class="experience-header">
-                            <div class="experience-title">Software Developer</div>
-                            <div class="experience-date">July 2025 - September 2025</div>
-                        </div>
-                        <div class="experience-company">Independent Contractor</div>
-                        <div class="experience-tech">Technologies: React, Next.js, Python, AI Integration, Sage X3 (4GL)</div>
-                        <ul class="experience-list">
-                            <li>Compiled and built the UI/UX for (4GL) using <strong>React</strong>, enabling natural-language-driven database querying</li>
-                            <li>Developed advanced migration scripts from <strong>Sage X3</strong> (4GL) and delivered advanced ERP features and integrations, focusing on <strong>AI integration</strong>, automation, and modernization</li>
-                        </ul>
-                    </div>
-
-                    <div class="experience-item">
-                        <div class="experience-header">
-                            <div class="experience-title">.NET Developer</div>
-                            <div class="experience-date">September 2022 - July 2025</div>
-                        </div>
-                        <div class="experience-company">Cognyte</div>
-                        <div class="experience-tech">Technologies: C#/.NET, Ansible, Jenkins, Groovy, Bitbucket, Wix, Python</div>
-                        <ul class="experience-list">
-                            <li>Maintained and enhanced Windows services in <strong>C#/.NET</strong></li>
-                            <li>Automated deployments and end-to-end <strong>CI/CD</strong> using <strong>Ansible</strong>, Bitbucket, <strong>Jenkins</strong>, Groovy scripts, Kinook's Visual Build, and Wix to streamline software delivery</li>
-                            <li>Took ownership (features, optimizations, bug fixing) for over ~40 <strong>microservices</strong>, 15 of which were core services</li>
-                            <li>Developed business-critical features while collaborating with architects, DevOps, QA, and Product</li>
-                            <li>Led training, mentoring, and onboarding of new team members</li>
-                        </ul>
-                    </div>
-
-                    <div class="experience-item">
-                        <div class="experience-header">
-                            <div class="experience-title">Internship - Web Application Developer</div>
-                            <div class="experience-date">April 2021 - August 2021</div>
-                        </div>
-                        <div class="experience-company">CS Vision</div>
-                        <div class="experience-tech">Technologies: ASP.NET MVC, WPF, Java, jQuery</div>
-                        <ul class="experience-list">
-                            <li>Maintained, enhanced, and troubleshooted <strong>ASP.NET MVC</strong> applications</li>
-                            <li>Developed a <strong>WPF</strong> onboard unit for public transport, deployed in major Romanian cities</li>
-                            <li>Independently migrated a project from <strong>Java</strong> to <strong>WPF</strong>, quickly adapting to new technologies</li>
-                        </ul>
-                    </div>
-                </div>
-
-                <!-- Education -->
-                <div class="section">
-                    <h2 class="section-title">Education</h2>
-                    <div class="education-item">
-                        <div class="experience-header">
-                            <div class="education-degree">Bachelor's Degree in Computer Science</div>
-                            <div class="experience-date">September 2019 - August 2022</div>
-                        </div>
-                        <div class="education-school">The Faculty of Mathematics and Computer Science, University of Bucharest</div>
-                        <div style="margin-top: 8px; font-size: 10px; font-style: italic;">
-                            Graduation Thesis: "Implementation of Real Estate Management Software"
-                        </div>
-                    </div>
-                </div>
+            <div class="section-title">Contact</div>
+            <div class="contact-item">
+                <i class="fas fa-location-dot"></i>
+                <span class="contact-text">Bucharest, Romania</span>
             </div>
-        </div>
+            <div class="contact-item">
+                <i class="fas fa-phone"></i>
+                <span class="contact-text">+40 771 434 701</span>
+            </div>
+            <div class="contact-item">
+                <i class="fas fa-envelope"></i>
+                <span class="contact-text contact-oneline"><a href="mailto:fusneica.florentin.cristian@gmail.com">fusneica.florentin.cristian@gmail.com</a></span>
+            </div>
+            <div class="contact-item">
+                <i class="fab fa-linkedin"></i>
+                <span class="contact-text contact-oneline"><a href="https://www.linkedin.com/in/fusneica-florentin" target="_blank" rel="noopener noreferrer">linkedin.com/in/fusneica-florentin</a></span>
+            </div>
+            <div class="contact-item">
+                <i class="fab fa-github"></i>
+                <span class="contact-text contact-oneline"><a href="https://github.com/Fusneica-FlorentinCristian" target="_blank" rel="noopener noreferrer">github.com/Fusneica-FlorentinCristian</a></span>
+            </div>
+
+            <div class="section-title">Best Fit</div>
+            <ul class="sidebar-list">
+                <li><strong>DevOps / SRE</strong> roles</li>
+                <li><strong>Platform</strong> &amp; build engineering</li>
+                <li><strong>Release / CI/CD</strong> ownership</li>
+                <li>Remote-first · Bucharest hybrid</li>
+            </ul>
+
+            <div class="section-title">Core Stack</div>
+            <ul class="sidebar-list">
+                <li><strong>CI/CD:</strong> Jenkins, Groovy, Azure, Bitbucket</li>
+                <li><strong>Automation:</strong> PowerShell, Python, BAT, Ansible</li>
+                <li><strong>Backend:</strong> C#/.NET, Windows Services, Microservices</li>
+                <li><strong>Cloud:</strong> Azure, AWS ECS, Docker</li>
+                <li><strong>Frontend:</strong> React, Next.js</li>
+            </ul>
+
+            <div class="section-title">Strengths</div>
+            <ul class="sidebar-list">
+                <li>Pipeline architecture &amp; cleanup</li>
+                <li>Legacy-to-modern delivery thinking</li>
+                <li>Fast tooling adaptation</li>
+                <li>Mentoring &amp; onboarding</li>
+            </ul>
+
+            <div class="section-title">Languages</div>
+            <ul class="sidebar-list">
+                <li><strong>Romanian</strong> – native</li>
+                <li><strong>English</strong> – fluent</li>
+            </ul>
+
+            <div class="section-title">Certifications</div>
+            <ul class="sidebar-list">
+                <li>Java 1 Associate (OCA)</li>
+                <li>C# Advanced</li>
+            </ul>
+        </aside>
+
+        <main class="main">
+            <h2>Profile</h2>
+            <p class="summary">
+                DevOps engineer with 4+ years across CI/CD platform engineering, .NET build systems, and automation-heavy delivery environments. Strongest when turning fragile pipelines into reusable, low-friction internal platforms with Jenkins, Groovy, PowerShell, Python, and Azure/AWS migration work. Best positioned for DevOps, platform, build/release, and cloud-adjacent engineering roles.
+            </p>
+
+            <h2>Experience</h2>
+            <div class="entry">
+                <div class="entry-header">
+                    <span class="entry-title">DevOps Engineer</span>
+                    <span class="entry-date">Sep 2025 – Present</span>
+                </div>
+                <div class="entry-subtitle">Alten (contracted to Autodesk)</div>
+                <div class="entry-tech">Azure · Jenkins · Groovy · PowerShell · BAT · .NET · AWS ECS</div>
+                <ul>
+                    <li>Delivered the migration of a .NET-focused CI/CD platform from <strong>AWS ECS</strong> to <strong>Azure</strong> with minimal disruption.</li>
+                    <li>Maintains and extends <strong>Jenkins</strong>, <strong>Groovy</strong>, and Windows automation for reliable, reusable delivery workflows.</li>
+                    <li>Implemented new automated tests and pipeline integrations across multiple delivery paths.</li>
+                    <li>Optimized .NET packaging/build steps and added dynamic dependency discovery with safer fallbacks across environments.</li>
+                </ul>
+            </div>
+
+            <div class="entry">
+                <div class="entry-header">
+                    <span class="entry-title">Software Developer</span>
+                    <span class="entry-date">Jul 2025 – Sep 2025</span>
+                </div>
+                <div class="entry-subtitle">Independent Contractor</div>
+                <div class="entry-tech">React · Next.js · Python · AI Integration · Sage X3 (4GL)</div>
+                <ul>
+                    <li>Built React-based UI flows that enabled natural-language database querying in a legacy ERP context.</li>
+                    <li>Delivered migration scripts and modernization features around <strong>Sage X3</strong>, automation, and AI-assisted workflows.</li>
+                </ul>
+            </div>
+
+            <div class="entry">
+                <div class="entry-header">
+                    <span class="entry-title">.NET Developer</span>
+                    <span class="entry-date">Sep 2022 – Jul 2025</span>
+                </div>
+                <div class="entry-subtitle">Cognyte</div>
+                <div class="entry-tech">C#/.NET · Ansible · Jenkins · Groovy · Bitbucket · Wix · Python</div>
+                <ul>
+                    <li>Owned feature delivery, debugging, optimization, and operational upkeep for <strong>40+ microservices</strong>, including 15 core services.</li>
+                    <li>Maintained Windows services in <strong>C#/.NET</strong> while automating end-to-end <strong>CI/CD</strong> with <strong>Ansible</strong>, <strong>Jenkins</strong>, Groovy, Bitbucket, Visual Build, and Wix.</li>
+                    <li>Worked cross-functionally with architects, QA, DevOps, and Product; also led training, mentoring, and onboarding.</li>
+                </ul>
+            </div>
+
+            <div class="entry">
+                <div class="entry-header">
+                    <span class="entry-title">Internship – Web Application Developer</span>
+                    <span class="entry-date">Apr 2021 – Aug 2021</span>
+                </div>
+                <div class="entry-subtitle">CS Vision</div>
+                <div class="entry-tech">ASP.NET MVC · WPF · Java · jQuery</div>
+                <ul>
+                    <li>Maintained and improved <strong>ASP.NET MVC</strong> applications for production use.</li>
+                    <li>Built a <strong>WPF</strong> onboard unit deployed in major Romanian cities and independently migrated a Java project to WPF.</li>
+                </ul>
+            </div>
+
+            <h2>Education</h2>
+            <div class="entry">
+                <div class="entry-header">
+                    <span class="entry-title">Bachelor's Degree in Computer Science</span>
+                    <span class="entry-date">Sep 2019 – Aug 2022</span>
+                </div>
+                <div class="entry-subtitle">Faculty of Mathematics and Computer Science, University of Bucharest</div>
+                <div class="edu-note">Graduation Thesis: “Implementation of Real Estate Management Software”</div>
+            </div>
+        </main>
     </div>
-    <script>
-        function copyToClipboard(event, text) {
-            event.preventDefault();
-            event.stopPropagation();
-            
-            navigator.clipboard.writeText(text).then(function() {
-                const btn = event.currentTarget;
-                const originalHTML = btn.innerHTML;
-                btn.innerHTML = '<i class="fas fa-check"></i>';
-                btn.style.background = 'rgba(76, 175, 80, 0.3)';
-                btn.style.borderColor = '#4caf50';
-                btn.style.color = '#4caf50';
-                
-                setTimeout(function() {
-                    btn.innerHTML = originalHTML;
-                    btn.style.background = 'rgba(232, 155, 139, 0.3)';
-                    btn.style.borderColor = '#e89b8b';
-                    btn.style.color = '#e89b8b';
-                }, 1500);
-            }).catch(function(err) {
-                console.error('Failed to copy: ', err);
-            });
-        }
-    </script>
 </body>
 </html>
