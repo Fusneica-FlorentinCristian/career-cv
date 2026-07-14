@@ -25,11 +25,8 @@
             padding: 0;
         }
         html, body {
-            width: 794px;
-            height: 1123px;
             margin: 0;
             padding: 0;
-            overflow: hidden;
         }
         @page { size: 794px 1123px; margin: 0; }
         .page {
@@ -164,15 +161,39 @@
             color: transparent;
         }
         @media print {
-            html, body { margin: 0; padding: 0; background: #fff; print-color-adjust: exact; -webkit-print-color-adjust: exact; }
+            html, body {
+                width: 794px;
+                height: 1123px;
+                margin: 0;
+                padding: 0;
+                overflow: hidden;
+                background: #fff;
+                print-color-adjust: exact;
+                -webkit-print-color-adjust: exact;
+            }
             .page { margin: 0; padding: 0; box-shadow: none; width: 794px; height: 1123px; }
             a { color: var(--accent-strong); }
         }
         @media screen {
-            body { background: #eef2f5; }
+            html, body {
+                width: 100%;
+                height: auto;
+                min-height: 100dvh;
+                overflow-x: hidden;
+            }
+            body {
+                background: #eef2f5;
+                display: flex;
+                justify-content: center;
+                align-items: flex-start;
+                padding: 8px;
+                box-sizing: border-box;
+            }
             .page {
-                margin: 8px auto;
+                margin: 0;
                 box-shadow: 0 12px 34px rgba(25, 35, 52, 0.08);
+                /* Fit full A4 canvas in viewport at 100% browser zoom */
+                zoom: min(1, calc((100vw - 16px) / 794), calc((100dvh - 16px) / 1123));
             }
         }</style>
 </head>
