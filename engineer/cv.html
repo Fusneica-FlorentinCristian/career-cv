@@ -1,0 +1,320 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CV – Florentin-Cristian Fusneica – Software Engineer</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <style>        :root {
+            --ink: #243341;
+            --muted: #5c6977;
+            --accent: #d98774;
+            --accent-strong: #38526d;
+            --rule: #d7e0e8;
+            --sidebar-bg: #fbfcfd;
+        }
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body {
+            font-family: 'Segoe UI', 'Helvetica Neue', Arial, sans-serif;
+            font-size: 10.6pt;
+            line-height: 1.42;
+            color: var(--ink);
+            background: #ffffff;
+            margin: 0;
+            padding: 0;
+        }
+        html, body {
+            width: 794px;
+            height: 1123px;
+            margin: 0;
+            padding: 0;
+            overflow: hidden;
+        }
+        @page { size: 794px 1123px; margin: 0; }
+        .page {
+            width: 794px;
+            height: 1123px;
+            min-height: 1123px;
+            max-height: 1123px;
+            margin: 0;
+            padding: 0;
+            display: grid;
+            grid-template-columns: 257px 537px;
+            gap: 0;
+            background: #ffffff;
+            box-shadow: none;
+            overflow: hidden;
+        }
+        .sidebar {
+            background: var(--sidebar-bg);
+            border-right: 2.5px solid var(--accent);
+            padding: 30px 12px 23px 30px;
+            width: 257px;
+            height: 1123px;
+            min-height: 1123px;
+        }
+        .identity { margin-bottom: 12px; }
+        .sidebar h1 {
+            font-size: 23pt;
+            line-height: 1.03;
+            color: var(--accent-strong);
+            letter-spacing: -0.6px;
+            margin-bottom: 6px;
+        }
+        .headline {
+            font-size: 9.35pt;
+            font-weight: 700;
+            text-transform: uppercase;
+            letter-spacing: 1.05px;
+            color: var(--ink);
+            line-height: 1.35;
+        }
+        .section-title {
+            font-size: 9.2pt;
+            font-weight: 700;
+            text-transform: uppercase;
+            letter-spacing: 1.25px;
+            color: var(--accent-strong);
+            margin-top: 14px;
+            margin-bottom: 6px;
+            border-bottom: 1.5px solid var(--rule);
+            padding-bottom: 3px;
+        }
+        .contact-item {
+            margin-bottom: 7px;
+            font-size: 9pt;
+            display: flex;
+            align-items: flex-start;
+            gap: 8px;
+        }
+        .contact-item i { color: var(--accent); width: 13px; flex-shrink: 0; margin-top: 2px; }
+        .contact-item a { color: var(--accent-strong); text-decoration: none; }
+        .contact-oneline { font-size: 8pt; white-space: nowrap; overflow: hidden; }
+        .sidebar-list { list-style: none; padding: 0; }
+        .sidebar-list li { margin-bottom: 5px; font-size: 9.15pt; line-height: 1.38; }
+        .sidebar-list li strong { color: var(--accent-strong); }
+        .main {
+            padding: 30px 23px 23px 10px;
+            width: 537px;
+            height: 1123px;
+            min-height: 1123px;
+            box-sizing: border-box;
+        }
+        .variant-engineer .entry { margin-bottom: 7px; }
+        .variant-engineer .main h2 { margin-top: 11px; margin-bottom: 6px; }
+        .variant-engineer .entry ul li { margin-bottom: 2px; line-height: 1.36; }
+        .variant-engineer .section-title { margin-top: 12px; }
+        .variant-engineer .summary { margin-bottom: 4px; line-height: 1.48; }
+        .variant-compact .section-title { margin-top: 11px; margin-bottom: 5px; }
+        .variant-compact .contact-item { margin-bottom: 5px; }
+        .variant-compact .sidebar-list li { margin-bottom: 4px; }
+        .variant-dense-main .entry { margin-bottom: 9px; }
+        .variant-dense-main .entry ul li { margin-bottom: 2px; line-height: 1.38; }
+        .variant-dense-main .main h2 { margin-top: 13px; margin-bottom: 7px; }
+        .variant-dense-main .summary { line-height: 1.46; margin-bottom: 4px; }
+        .main h2 {
+            font-size: 10.5pt;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            color: var(--accent-strong);
+            border-bottom: 2px solid var(--accent-strong);
+            padding-bottom: 3px;
+            margin-bottom: 9px;
+            margin-top: 16px;
+        }
+        .main h2:first-child { margin-top: 0; }
+        .summary { font-size: 9.6pt; color: #3e4b59; margin-bottom: 6px; line-height: 1.52; }
+        .entry { margin-bottom: 13px; }
+        .entry-header { display: flex; justify-content: space-between; align-items: baseline; gap: 10px; }
+        .entry-title { font-weight: 700; font-size: 10pt; color: var(--ink); }
+        .entry-date { font-size: 8.5pt; color: var(--muted); font-style: italic; white-space: nowrap; }
+        .entry-subtitle { font-size: 9.25pt; color: var(--muted); font-style: italic; margin-bottom: 4px; }
+        .entry-tech { font-size: 9pt; color: var(--accent-strong); font-weight: 600; margin-bottom: 4px; }
+        .entry ul { list-style: none; padding-left: 0; }
+        .entry ul li {
+            position: relative;
+            padding-left: 13px;
+            margin-bottom: 3px;
+            font-size: 9.75pt;
+            line-height: 1.42;
+        }
+        .entry ul li::before {
+            content: "–";
+            position: absolute;
+            left: 0;
+            top: 0;
+            color: var(--accent);
+            font-weight: 700;
+        }
+        .entry ul li strong { color: var(--accent-strong); }
+        .main a {
+            color: var(--accent-strong);
+            text-decoration: none;
+            font-weight: 600;
+        }
+        .entry-subtitle a { font-style: normal; }
+        .keywords-hidden {
+            position: absolute;
+            left: -9999px;
+            width: 1px;
+            height: 1px;
+            overflow: hidden;
+            font-size: 1px;
+            color: transparent;
+        }
+        @media print {
+            html, body { margin: 0; padding: 0; background: #fff; print-color-adjust: exact; -webkit-print-color-adjust: exact; }
+            .page { margin: 0; padding: 0; box-shadow: none; width: 794px; height: 1123px; }
+            a { color: var(--accent-strong); }
+        }
+        @media screen {
+            body { background: #eef2f5; }
+            .page {
+                margin: 8px auto;
+                box-shadow: 0 12px 34px rgba(25, 35, 52, 0.08);
+            }
+        }</style>
+</head>
+<body>
+    <div class="keywords-hidden">Software Engineer, Integration Engineering, Release Engineering, Desktop Products, Cross-repo Delivery, Regression Triage, Jenkins, Azure, C#, Python.</div>
+    <div class="page variant-engineer">
+        <aside class="sidebar">
+            <div class="identity">
+                <h1>Florentin-Cristian Fusneica</h1>
+                <p class="headline">Software Engineer · Integration / Release Delivery</p>
+            </div>
+            <div class="section-title">Contact</div>
+            <div class="contact-item"><i class="fas fa-location-dot"></i><span>Bucharest, Romania</span></div>
+            <div class="contact-item"><i class="fas fa-phone"></i><span>+40 771 434 701</span></div>
+            <div class="contact-item"><i class="fas fa-envelope"></i><span class="contact-oneline"><a href="mailto:fusneica.florentin.cristian@gmail.com">fusneica.florentin.cristian@gmail.com</a></span></div>
+            <div class="contact-item"><i class="fab fa-linkedin"></i><span class="contact-oneline"><a href="https://www.linkedin.com/in/fusneica-florentin">LinkedIn</a></span></div>
+            <div class="contact-item"><i class="fab fa-github"></i><span class="contact-oneline"><a href="https://github.com/Fusneica-FlorentinCristian">GitHub</a></span></div>
+            <div class="section-title">Best Fit</div>
+            <ul class="sidebar-list">
+                <li><strong>Integration</strong> engineering</li>
+                <li><strong>Release</strong> delivery ownership</li>
+                <li><strong>Cross-repo</strong> coordination</li>
+                <li>Remote-first · Bucharest hybrid</li>
+            </ul>
+            <div class="section-title">Core Stack</div>
+            <ul class="sidebar-list">
+                <li><strong>Domain:</strong> Enterprise desktop suite</li>
+                <li><strong>Languages:</strong> C#, Python, PowerShell</li>
+                <li><strong>Delivery:</strong> Jenkins, Azure, Git, GitHub</li>
+                <li><strong>Methods:</strong> Regression triage, rollback</li>
+            </ul>
+            <div class="section-title">Strengths</div>
+            <ul class="sidebar-list">
+                <li>End-to-end release ownership</li>
+                <li>Regression triage &amp; rollback</li>
+                <li>Local source builds</li>
+                <li>Stakeholder coordination</li>
+            </ul>
+            <div class="section-title">Integration Focus</div>
+            <ul class="sidebar-list">
+                <li>Upstream runtime version upgrades</li>
+                <li>Build-farm QA &amp; rollback decisions</li>
+                <li>Cross-repo release coordination</li>
+            </ul>
+            <div class="section-title">Languages</div>
+            <ul class="sidebar-list">
+                <li><strong>Romanian</strong> – native</li>
+                <li><strong>English</strong> – fluent</li>
+            </ul>
+            <div class="section-title">Certifications</div>
+            <ul class="sidebar-list">
+                <li>Java 1 Associate (OCA)</li>
+                <li>C# Advanced</li>
+            </ul>
+            <div class="section-title">Education</div>
+            <ul class="sidebar-list">
+                <li><strong>BSc Computer Science</strong></li>
+                <li>University of Bucharest, 2019–2022</li>
+            </ul>
+        </aside>
+        <main class="main">
+            <h2>Profile</h2>
+            <p class="summary">Software engineer with 4+ years owning end-to-end delivery across build, packaging, integration, and release validation for complex multi-repo products. Strongest in add-on-to-host integration releases, regression triage, and cross-team coordination.</p>
+            <h2>Experience</h2>
+            <div class="entry">
+                <div class="entry-header">
+                    <span class="entry-title">Integration Engineer</span>
+                    <span class="entry-date">Sep 2025 – Present</span>
+                </div>
+                <div class="entry-subtitle">Alten · Autodesk — Integration &amp; Release</div>
+                <div class="entry-tech">C# · .NET · Jenkins · Azure · PowerShell</div>
+                <ul>
+                    <li>End-to-end owner for <strong>add-on-to-host releases</strong> across 4 annual tracks and 4+ repos: build → package publish → integration PR → build-farm QA.</li>
+                    <li>Owned <strong>go/no-go on integration rollback</strong> after upstream runtime upgrades — triaged regressions and reverted with documented decision, unblocking release when QA failed.</li>
+                    <li>Built <strong>local host application</strong> from source to unblock add-on validation when CI packages unavailable — cut multi-day waits during integration.</li>
+                    <li>Led <strong>cloud build-agent migration</strong> for 2 add-on CI/CD estates across multiple annual release branches — completed Azure cutover without release-track downtime.</li>
+                </ul>
+            </div>
+
+            <div class="entry">
+                <div class="entry-header">
+                    <span class="entry-title">.NET Developer</span>
+                    <span class="entry-date">Sep 2022 – Jul 2025</span>
+                </div>
+                <div class="entry-subtitle">Cognyte</div>
+                <div class="entry-tech">C#/.NET · Jenkins · Ansible · Python</div>
+                <ul>
+                    <li>Owned feature delivery for <strong>40+ microservices</strong> including 15 core platform services.</li>
+                    <li>Shipped <strong>C#/.NET API</strong> and Windows service enhancements for enterprise investigation workflows.</li>
+                    <li>Led <strong>cross-functional delivery</strong> with architects, DevOps, QA, and Product; mentored and onboarded new engineers.</li>
+                </ul>
+            </div>
+
+            <div class="entry">
+                <div class="entry-header">
+                    <span class="entry-title">Software Developer</span>
+                    <span class="entry-date">Jul – Sep 2025</span>
+                </div>
+                <div class="entry-subtitle">Independent Contractor</div>
+                <div class="entry-tech">React · Python · Sage X3</div>
+                <ul>
+                    <li>Delivered ERP modernization features and migration automation for legacy 4GL systems.</li>
+                </ul>
+            </div>
+
+            <div class="entry">
+                <div class="entry-header">
+                    <span class="entry-title">Software Developer Intern</span>
+                    <span class="entry-date">Apr – Aug 2021</span>
+                </div>
+                <div class="entry-subtitle">CS Vision</div>
+                <div class="entry-tech">ASP.NET MVC · WPF · Java</div>
+                <ul>
+                    <li>Maintained production ASP.NET MVC applications; migrated Java project to WPF independently.</li>
+                </ul>
+            </div>
+            <h2>Professional Development</h2>
+            <div class="entry">
+                <div class="entry-header">
+                    <span class="entry-title">Software Architect Course</span>
+                    <span class="entry-date">23 Jun – 3 Sep 2026</span>
+                </div>
+                <div class="entry-subtitle"><a href="https://skillab.ro/lecture/1223-devino-software-architect">Skillab</a> · In progress · 3 modules / 19 lectures</div>
+                <div class="entry-tech">DDD · Event-driven · Kubernetes · AWS · Kafka · Docker · IaC · ATAM</div>
+                <ul>
+                    <li>Programme: requirements, DDD/event-driven design, distributed systems, quality attributes, <strong>ATAM</strong>, security, and threat modelling.</li>
+                    <li>Hands-on <strong>capstone</strong>: full solution architecture with diagrams, ADRs, Docker/Kubernetes/AWS workshops, CI/CD &amp; IaC pipelines, OpenTelemetry/performance testing, and assessed presentation.</li>
+                </ul>
+            </div>
+            <h2>Personal Projects</h2>
+            <div class="entry">
+                <div class="entry-header">
+                    <span class="entry-title">FamilyHub Manager</span>
+                    <span class="entry-date">2024 – Present</span>
+                </div>
+                <div class="entry-subtitle">Personal project · 8-repo monorepo</div>
+                <div class="entry-tech">Django · React · PostgreSQL · Celery · Docker · Playwright · MCP</div>
+                <ul>
+                    <li>Estate-management platform: Django REST + React PWA — properties, tenants, rent/utilities, budget, document OCR; <strong>MCP server</strong> for domain APIs, Docker Compose, Playwright E2E, GitHub Actions CI.</li>
+                </ul>
+            </div>
+
+        </main>
+    </div>
+</body>
+</html>
