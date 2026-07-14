@@ -2,6 +2,8 @@
 
 Published CV variants for **Florentin-Cristian Fusneica**.
 
+**Live (GitHub Pages):** [DevOps CV](https://fusneica-florentincristian.github.io/career-cv/cv.html) · [dotnet](https://fusneica-florentincristian.github.io/career-cv/dotnet/cv.html) · [engineer](https://fusneica-florentincristian.github.io/career-cv/engineer/cv.html) · [platform](https://fusneica-florentincristian.github.io/career-cv/platform/cv.html)
+
 | Variant | Role focus | Files |
 |---------|------------|-------|
 | **Default (root)** | DevOps / CI/CD / Platform | `cv.md`, `cv.html`, `cv.pdf` |
@@ -10,5 +12,3 @@ Published CV variants for **Florentin-Cristian Fusneica**.
 | [`platform/`](platform/) | Internal platform & developer tooling | `platform/cv.*` |
 
 Open `cv.html` in a browser or send `cv.pdf` for applications. Pick the folder that matches the job posting.
-
-> **Generator & profile** live on the private `generator` branch — not in this tree.
