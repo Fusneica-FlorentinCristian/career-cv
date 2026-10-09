@@ -1,77 +1,92 @@
 # Florentin-Cristian Fusneica
 
-## .NET Software Engineer · Build Integration / MSBuild / Release Engineering
-
----
+## .NET Engineer · Build & Release Automation
 
 ### Contact
 fusneica.florentin.cristian@gmail.com | [LinkedIn](https://www.linkedin.com/in/fusneica-florentin) | +40 771 434 701 | Bucharest, Romania | [GitHub](https://github.com/Fusneica-FlorentinCristian)
 
----
-
 ### Profile
 
-.NET software engineer with 4+ years across Windows services, microservices, and build/release integration for enterprise products. Strongest in .NET 10 migration, MSBuild packaging, desktop add-on integration, and CI-validated release branches. Best suited for .NET backend, build engineering, and integration-focused roles.
+Build and release engineer with 4+ years working with C#/.NET services and software delivery. Experience upgrading .NET products, maintaining MSBuild and NuGet packages, automating release checks, and debugging live services.
 
----
+### Best Fit
+
+- **.NET build & integration**
+- **Build & release automation**
+- **Software packaging & delivery**
 
 ### Skills
 
-- **Languages & Runtime:** C#, .NET, MSBuild, NuGet
-- **Integration:** Add-on packaging, upstream runtime bumps, host-app release branches
-- **Testing & Quality:** OOTB smoke tests, dotnet-coverage, Authenticode signing
-- **DevOps:** Jenkins, PowerShell, Azure, Ansible
-- **Strengths:** Release-branch integration, legacy modernization, cross-repo delivery
+- **Runtime:** C#, .NET, MSBuild, NuGet
+- **Integration:** Desktop add-ons, application builds
+- **Quality:** Smoke tests, dotnet-coverage
+- **DevOps:** Jenkins, PowerShell, Azure
+- **Scripting:** Python, PowerShell, Wix
 
----
+### Strengths
+
+- .NET 10 migration & signing
+- Maintaining supported versions
+- Changes spanning related repositories
+- Legacy modernization
+
+### Build Focus
+
+- Packaging software dependencies
+- Smoke & regression tests
+- Authenticode signing checks
 
 ### Work Experience
 
-**DevOps Engineer** — Alten (contracted to Autodesk)
-*September 2025 – July 2026* | .NET, MSBuild, Jenkins, PowerShell, Azure
+**.NET / Build Engineer** — Alten · Autodesk — .NET Build & Integration
+*Sep 2025 – Aug 2026* | .NET · MSBuild · Jenkins · PowerShell · Azure
 
-- Led **.NET 10 migration** for desktop add-on products: project files, resource extraction, bundled dependencies, and release-branch validation
-- Integrated multiple **upstream runtime versions** into annual release branches via MSBuild packaging and dedicated CI pipelines
-- Implemented **out-of-box sample smoke tests** for add-on products
-- Modernized a **structural-analysis prebuild** step with PowerShell and centralized MSBuild props
-- Restored **Authenticode signing verification** after .NET 10 migration across release tracks
+- Upgraded desktop add-on products to **.NET 10**, updating projects and dependencies for four supported versions.
+- Updated **MSBuild packages and runtime dependencies** across four or more related code repositories.
+- Added **smoke tests** to check basic functionality before packaging; updated build scripts with PowerShell and MSBuild.
+- Restored **Authenticode signature checks** after the .NET 10 upgrade for supported software versions.
+- Split **package preparation** into reusable steps that cache downloads and discover NuGet dependencies.
 
 **.NET Developer** — Cognyte
-*September 2022 – July 2025* | C#/.NET, Ansible, Jenkins, Groovy, Bitbucket, Wix, Python
+*Sep 2022 – Jul 2025* | C#/.NET · Jenkins · Ansible · Groovy · Wix
 
-- Owned **40+ microservices** end-to-end: features, optimization, bug fixing, deployment — 15 core
-- Developed business-critical features for enterprise platforms with C#/.NET Windows services
-- Automated CI/CD pipelines for all services using Jenkins, Ansible, Groovy, and Wix
-- Led training, mentoring, and onboarding of new team members
+- Developed and supported **40+ microservices**, including 15 core services; delivered features and investigated performance issues.
+- Developed **C#/.NET service features and fixes**; attached a debugger remotely to diagnose running production services.
+- Automated **builds and deployments** with Jenkins, Ansible, Groovy, and Wix.
 
-**Software Developer** — Independent Contractor
-*July 2025 – September 2025* | React, Next.js, Python, Sage X3 (4GL)
+**Earlier Roles** — CS Vision · Independent Contractor
+*2021 – 2025*
 
-- Built React UI with AI integration for natural-language database querying
-- Developed ERP migration scripts from Sage X3 (4GL)
-
-**Internship — Web Application Developer** — CS Vision
-*April 2021 – August 2021* | ASP.NET MVC, WPF, Java, jQuery
-
-- Maintained and enhanced ASP.NET MVC applications
-- Developed WPF onboard unit deployed in major Romanian cities; independently migrated Java to WPF
-
----
+- Intern (CS Vision): ASP.NET MVC / WPF maintenance and Java→WPF migration.
+- Contractor (2025): **ERP modernization** scripts and React automation.
 
 ### Professional Development
 
-**Skillab — [Devino Software Architect](https://skillab.ro/lecture/1223-devino-software-architect)**  
-23 June – 3 September 2026 *(in progress)*  
-Course notes: [software-architecture](https://github.com/Fusneica-FlorentinCristian/software-architecture)
+**Skillab — [Software Architect Course](https://skillab.ro/lecture/1223-devino-software-architect)**
+23 June – 11 September 2026 · Completed 11 September 2026 · 19 lectures
 
----
+Software design · AWS · Security · Cost analysis
+
+- Designed the **architecture for a simulated online shop**: C4 diagrams, AWS/ECS deployment, STRIDE threat analysis, and operating-cost estimates.
+- **Product API in Go**: REST/gRPC APIs, Prometheus metrics, and k6 load tests.
+
+### Personal Projects
+
+**FamilyHub Manager** — Personal project · System design & AI-assisted development
+*Feb 2026 – Present* | Django REST · React · AWS · Cloudflare · MCP · Local LLMs
+
+- Defined **property, rent, and document workflows**; reviewed AI-generated code and tested the web interface and APIs.
+- Reviewed **cloud hosting and AI connectivity**: AWS deployment, Cloudflare routing, MCP API access, and local-model integration.
+- Coordinated **Grok, Cursor, and Codex agents**: assigned tasks, kept handoff notes, reviewed changes, and checked completed features.
 
 ### Education
-**Bachelor's in Computer Science** — University of Bucharest (2019–2022)
-Thesis: "Implementation of Real Estate Management Software"
+
+**BSc Computer Science** — University of Bucharest (2019–2022)
 
 ### Certifications
+
 Java 1 Associate (OCA) | C# Advanced
 
 ### Languages
+
 English (fluent) | Romanian (native)

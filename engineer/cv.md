@@ -2,76 +2,89 @@
 
 ## Software Engineer · DevOps / .NET / CI/CD
 
----
-
 ### Contact
 fusneica.florentin.cristian@gmail.com | [LinkedIn](https://www.linkedin.com/in/fusneica-florentin) | +40 771 434 701 | Bucharest, Romania | [GitHub](https://github.com/Fusneica-FlorentinCristian)
 
----
-
 ### Profile
 
-Software engineer with 4+ years across DevOps, .NET, and enterprise CI/CD — building pipelines, automating releases, and improving build reliability for large product teams. Strong in Jenkins, Azure, MSBuild, and cross-functional delivery. Best suited for generalist software engineer, DevOps, build/release, and .NET backend roles.
+Software engineer with 4+ years developing .NET services, automating releases, and troubleshooting production issues. Experience with Jenkins, Azure, MSBuild, and Ansible; personal projects focus on API integrations and AI-assisted development.
 
----
+### Best Fit
+
+- **Software engineer (generalist)**
+- **DevOps & build/release**
+- **API integration & CI/CD**
 
 ### Skills
 
-- **DevOps & CI/CD:** Jenkins, Azure, GitHub Checks, multibranch pipelines, Groovy shared libraries
-- **Languages:** C#, Python, PowerShell, JavaScript
-- **Build & Release:** .NET, MSBuild, NuGet, Artifactory, code signing
-- **Strengths:** Pipeline migration, release automation, CI reliability, mentoring
+- **CI/CD:** Jenkins, Azure, GitHub Checks
+- **Languages:** C#, Python, PowerShell
+- **Build:** .NET, MSBuild, Artifactory
+- **Methods:** Release automation, mentoring
 
----
+### Strengths
+
+- Cloud CI/CD migration
+- Jenkins pipeline design
+- .NET build & release
+- Cross-team coordination
+
+### Delivery Focus
+
+- Multibranch pipeline-as-code
+- Digital signing & package checks
+- Coverage & GitHub Checks
 
 ### Work Experience
 
-**DevOps Engineer** — Alten (contracted to Autodesk)
-*September 2025 – July 2026* | .NET, Jenkins, Azure, PowerShell, C#
+**DevOps Engineer** — Alten · Autodesk — Build & Release
+*Sep 2025 – Aug 2026* | C# · .NET · Jenkins · Azure · PowerShell
 
-- Led **cloud CI/CD migration** (legacy build farm → Azure) for enterprise desktop product add-ons across multiple annual release branches
-- Designed **Jenkins multibranch pipelines** with shared Groovy libraries, reactive parameters, and standardized assembly versioning
-- Owned **.NET build and release** — MSBuild packaging, NuGet/Artifactory publish, Authenticode signing, and artifact validation
-- Improved **CI reliability** with durable agent layout, coverage reporting, GitHub Checks, and cross-team release coordination
+- Moved **Jenkins build servers to Azure** for desktop add-on products with several supported software versions.
+- Created **reusable Jenkins pipelines** with shared Groovy code, build options, and automatic version numbering.
+- Maintained **.NET builds and releases**: MSBuild packages, NuGet publishing, Artifactory storage, and digital-signature checks.
+- Investigated **build failures**, added coverage reports and GitHub Checks, and coordinated releases with other teams.
 
 **.NET Developer** — Cognyte
-*September 2022 – July 2025* | C#/.NET, Jenkins, Ansible, Python
+*Sep 2022 – Jul 2025* | C#/.NET · Jenkins · Ansible · Python
 
-- Owned feature delivery and operational upkeep for 40+ microservices including 15 core platform services
-- Built and maintained CI/CD automation using Jenkins, Ansible, and Groovy across all services
-- Led training, mentoring, and onboarding of new team members
+- Developed and supported **40+ microservices**, including 15 core services.
+- Automated **builds and deployments** with Jenkins, Ansible, and Groovy.
+- Diagnosed **application and deployment failures**, including remote debugging of running C#/.NET services.
 
-**Software Developer** — Independent Contractor
-*July 2025 – September 2025* | React, Python, Sage X3 (4GL)
+**Earlier Roles** — CS Vision · Independent Contractor
+*2021 – 2025*
 
-- Delivered ERP modernization features and migration automation for legacy 4GL systems
-
-**Internship — Web Application Developer** — CS Vision
-*April 2021 – August 2021* | ASP.NET MVC, WPF, Java
-
-- Maintained production ASP.NET MVC applications; migrated Java project to WPF independently
-
----
-
-### Personal Projects
-
-**FamilyHub Manager** — 8-repo estate-management platform (Django REST + React PWA): properties, tenants, rent/utilities, budget, document OCR, MCP server for LLM tooling, Playwright E2E, self-hosted GitHub Actions CI.
-
----
+- Intern (CS Vision): ASP.NET MVC / WPF maintenance and Java→WPF migration.
+- Contractor (2025): **ERP modernization** scripts and React automation.
 
 ### Professional Development
 
-**Skillab — [Devino Software Architect](https://skillab.ro/lecture/1223-devino-software-architect)**  
-23 June – 3 September 2026 *(in progress)*  
-Course notes: [software-architecture](https://github.com/Fusneica-FlorentinCristian/software-architecture)
+**Skillab — [Software Architect Course](https://skillab.ro/lecture/1223-devino-software-architect)**
+23 June – 11 September 2026 · Completed 11 September 2026 · 19 lectures
 
----
+Software design · AWS · Security · Cost analysis
+
+- Designed the **architecture for a simulated online shop**: C4 diagrams, AWS/ECS deployment, STRIDE threat analysis, and operating-cost estimates.
+- **Product API in Go**: REST/gRPC APIs, Prometheus metrics, and k6 load tests.
+
+### Personal Projects
+
+**FamilyHub Manager** — Personal project · System design & AI-assisted development
+*Feb 2026 – Present* | Django REST · React · AWS · Cloudflare · MCP · Local LLMs
+
+- Defined **property, rent, and document workflows**; reviewed AI-generated code and tested the web interface and APIs.
+- Reviewed **cloud hosting and AI connectivity**: AWS deployment, Cloudflare routing, MCP API access, and local-model integration.
+- Coordinated **Grok, Cursor, and Codex agents**: assigned tasks, kept handoff notes, reviewed changes, and checked completed features.
 
 ### Education
-**Bachelor's in Computer Science** — University of Bucharest (2019–2022)
+
+**BSc Computer Science** — University of Bucharest (2019–2022)
 
 ### Certifications
+
 Java 1 Associate (OCA) | C# Advanced
 
 ### Languages
+
 English (fluent) | Romanian (native)

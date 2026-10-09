@@ -7,7 +7,7 @@ Published CV variants for **Florentin-Cristian Fusneica**.
 | Variant | Role focus | Files |
 |---------|------------|-------|
 | **Default (root)** | DevOps / CI/CD / Platform | `cv.md`, `cv.html`, `cv.pdf` |
-| [`dotnet/`](dotnet/) | .NET / Build & release integration | `dotnet/cv.*` |
+| [`dotnet/`](dotnet/) | .NET / Build & release automation | `dotnet/cv.*` |
 | [`engineer/`](engineer/) | Integration / release delivery | `engineer/cv.*` |
 | [`platform/`](platform/) | Internal platform & developer tooling | `platform/cv.*` |
 

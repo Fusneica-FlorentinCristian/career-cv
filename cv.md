@@ -2,71 +2,91 @@
 
 ## DevOps Engineer · CI/CD / Build Systems / Platform
 
----
-
 ### Contact
 fusneica.florentin.cristian@gmail.com | [LinkedIn](https://www.linkedin.com/in/fusneica-florentin) | +40 771 434 701 | Bucharest, Romania | [GitHub](https://github.com/Fusneica-FlorentinCristian)
 
----
-
 ### Profile
 
-DevOps engineer with 4+ years building and migrating enterprise CI/CD platforms. Strongest in Jenkins pipeline-as-code, cloud build-agent migration, artifact signing, and release automation for .NET-heavy products. Best suited for DevOps, platform, build/release, and SRE-adjacent roles.
+DevOps engineer with 4+ years developing software and automating builds and deployments. Experience moving Jenkins build servers to Azure, maintaining .NET releases, and diagnosing production failures. Uses PowerShell, Python, Groovy, and Ansible to reduce manual release work.
 
----
+### Best Fit
+
+- **DevOps & release automation**
+- **Platform & build engineering**
+- **CI/CD & build troubleshooting**
 
 ### Skills
 
-- **CI/CD:** Jenkins, Groovy shared libraries, GitHub Checks, multibranch pipelines
-- **Cloud & Automation:** Azure, PowerShell, Python, Ansible, AzCopy
-- **Build Systems:** .NET MSBuild, NuGet, Artifactory, code coverage (Cobertura)
-- **Strengths:** Pipeline migration, signing hardening, agent reliability, release automation
+- **CI/CD:** Jenkins, Groovy, GitHub Checks
+- **Cloud:** Azure, PowerShell, Python
+- **Build:** .NET, MSBuild, Artifactory
+- **Scripting:** C#, Groovy, JavaScript
+- **Config:** Ansible, Docker
 
----
+### Strengths
+
+- Moving build servers to Azure
+- Digital signing & package checks
+- Build troubleshooting & test reports
+- Mentoring & onboarding
+
+### Delivery Practices
+
+- Multibranch pipeline-as-code
+- Coverage reports & GitHub Checks
+- Release-branch automation
 
 ### Work Experience
 
-**DevOps Engineer** — Alten (contracted to Autodesk)
-*September 2025 – July 2026* | Azure, Jenkins, Groovy, PowerShell, .NET, Artifactory
+**DevOps Engineer** — Alten · Autodesk — Build & Release Platform
+*Sep 2025 – Aug 2026* | Azure · Jenkins · Groovy · PowerShell · .NET · Artifactory
 
-- Led **cloud build-agent migration** (legacy farm → Azure) for CI/CD across two add-on product lines and four annual release tracks — Azure blob binary procurement, Artifactory fallback, AzCopy automation, and Jenkins pipeline refactor
-- Designed and refactored **Jenkins multibranch pipelines** with Active Choices reactive parameters, shared Groovy libraries, and T4-based assembly versioning
-- Hardened **artifact and signing pipelines** with fail-fast Authenticode checks, Artifactory SSO credential chains, and selective publish workflows
-- Improved CI reliability through durable agent workspace layout, cloud/network-share binary procurement, and flaky test/coverage triage
-- Drove **GitHub Checks** integration spikes (build, tests, coverage) across packaging repos and cross-repo add-on delivery
+- Moved **Jenkins build servers to Azure** for two desktop add-on products and four supported software versions.
+- Created **reusable Jenkins pipelines** with shared Groovy code, build options, and automatic version numbering.
+- Fixed **digital-signature checks** after the .NET 10 upgrade; stopped packaging when signature verification failed.
+- Added **GitHub Checks** for build/test results and Cobertura coverage reports.
+- Investigated **unreliable builds and coverage reports**; separated build workspaces from reusable caches.
 
 **.NET Developer** — Cognyte
-*September 2022 – July 2025* | C#/.NET, Ansible, Jenkins, Groovy, Bitbucket, Wix, Python
+*Sep 2022 – Jul 2025* | C#/.NET · Ansible · Jenkins · Groovy · Bitbucket · Wix
 
-- Built end-to-end **CI/CD automation** using Ansible, Jenkins, Groovy, and Wix — commit to production for 40+ microservices
-- Maintained and modernized Jenkins pipelines across all services; wrote Ansible roles for deployment orchestration
-- Led training and onboarding on DevOps practices
+- Developed and supported **40+ microservices**, including 15 core services, from feature changes to production support.
+- Automated **builds and deployments** with Jenkins, Ansible, Groovy, and Wix.
+- Diagnosed **production and pipeline failures**, including remote debugging of running C#/.NET services; trained colleagues.
 
-**Software Developer** — Independent Contractor
-*July 2025 – September 2025* | Python, React, Automation
+**Earlier Roles** — CS Vision · Independent Contractor
+*2021 – 2025*
 
-- Developed migration scripts and automation tooling for legacy ERP modernization
-
-**Internship — Web Application Developer** — CS Vision
-*April 2021 – August 2021* | ASP.NET MVC, WPF, Java
-
-- Independently migrated a project across technology stacks
-
----
+- Intern (CS Vision): ASP.NET MVC / WPF maintenance and Java→WPF migration.
+- Contractor (2025): **ERP modernization** scripts and React automation.
 
 ### Professional Development
 
-**Skillab — [Devino Software Architect](https://skillab.ro/lecture/1223-devino-software-architect)**  
-23 June – 3 September 2026 *(in progress)*  
-Course notes: [software-architecture](https://github.com/Fusneica-FlorentinCristian/software-architecture)
+**Skillab — [Software Architect Course](https://skillab.ro/lecture/1223-devino-software-architect)**
+23 June – 11 September 2026 · Completed 11 September 2026 · 19 lectures
 
----
+Software design · AWS · Security · Cost analysis
+
+- Designed the **architecture for a simulated online shop**: C4 diagrams, AWS/ECS deployment, STRIDE threat analysis, and operating-cost estimates.
+- **Product API in Go**: REST/gRPC APIs, Prometheus metrics, and k6 load tests.
+
+### Personal Projects
+
+**FamilyHub Manager** — Personal project · System design & AI-assisted development
+*Feb 2026 – Present* | Django REST · React · AWS · Cloudflare · MCP · Local LLMs
+
+- Defined **property, rent, and document workflows**; reviewed AI-generated code and tested the web interface and APIs.
+- Reviewed **cloud hosting and AI connectivity**: AWS deployment, Cloudflare routing, MCP API access, and local-model integration.
+- Coordinated **Grok, Cursor, and Codex agents**: assigned tasks, kept handoff notes, reviewed changes, and checked completed features.
 
 ### Education
-**Bachelor's in Computer Science** — University of Bucharest (2019–2022)
+
+**BSc Computer Science** — University of Bucharest (2019–2022)
 
 ### Certifications
+
 Java 1 Associate (OCA) | C# Advanced
 
 ### Languages
+
 English (fluent) | Romanian (native)
