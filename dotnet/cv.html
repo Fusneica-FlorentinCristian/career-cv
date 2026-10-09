@@ -256,10 +256,10 @@
                 <div class="entry-tech">.NET · MSBuild · Jenkins · PowerShell · Azure</div>
                 <ul>
                     <li>Upgraded desktop add-on products to <strong>.NET 10</strong>, updating projects and dependencies for four supported versions.</li>
-                    <li>Updated <strong>MSBuild packages and runtime dependencies</strong> across four or more related code repositories.</li>
+                    <li>Traced <strong>undocumented build dependencies</strong> with limited version visibility; coordinated rebuilds of specialized artifacts.</li>
                     <li>Added <strong>smoke tests</strong> to check basic functionality before packaging; updated build scripts with PowerShell and MSBuild.</li>
                     <li>Restored <strong>Authenticode signature checks</strong> after the .NET 10 upgrade for supported software versions.</li>
-                    <li>Split <strong>package preparation</strong> into reusable steps that cache downloads and discover NuGet dependencies.</li>
+                    <li>Adapted <strong>Jenkins pipelines for clean Azure agents</strong>, removing reliance on artifacts pre-cached on AWS ECS workers.</li>
                 </ul>
             </div>
 

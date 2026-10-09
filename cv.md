@@ -7,7 +7,7 @@ fusneica.florentin.cristian@gmail.com | [LinkedIn](https://www.linkedin.com/in/f
 
 ### Profile
 
-DevOps engineer with 4+ years developing software and automating builds and deployments. Experience moving Jenkins build servers to Azure, maintaining .NET releases, and diagnosing production failures. Uses PowerShell, Python, Groovy, and Ansible to reduce manual release work.
+DevOps engineer with 4+ years developing software and automating builds and deployments. Experience adapting Jenkins pipelines for clean Azure agents, maintaining .NET releases, and diagnosing production failures. Uses PowerShell, Python, Groovy, and Ansible to reduce manual release work.
 
 ### Best Fit
 
@@ -25,7 +25,7 @@ DevOps engineer with 4+ years developing software and automating builds and depl
 
 ### Strengths
 
-- Moving build servers to Azure
+- Build dependency troubleshooting
 - Digital signing & package checks
 - Build troubleshooting & test reports
 - Mentoring & onboarding
@@ -41,11 +41,11 @@ DevOps engineer with 4+ years developing software and automating builds and depl
 **DevOps Engineer** — Alten · Autodesk — Build & Release Platform
 *Sep 2025 – Aug 2026* | Azure · Jenkins · Groovy · PowerShell · .NET · Artifactory
 
-- Moved **Jenkins build servers to Azure** for two desktop add-on products and four supported software versions.
+- Adapted **Jenkins pipelines for clean Azure agents**, removing reliance on artifacts pre-cached on AWS ECS workers.
 - Created **reusable Jenkins pipelines** with shared Groovy code, build options, and automatic version numbering.
 - Fixed **digital-signature checks** after the .NET 10 upgrade; stopped packaging when signature verification failed.
 - Added **GitHub Checks** for build/test results and Cobertura coverage reports.
-- Investigated **unreliable builds and coverage reports**; separated build workspaces from reusable caches.
+- Traced **undocumented build dependencies** with limited version visibility; coordinated rebuilds of specialized artifacts.
 
 **.NET Developer** — Cognyte
 *Sep 2022 – Jul 2025* | C#/.NET · Ansible · Jenkins · Groovy · Bitbucket · Wix

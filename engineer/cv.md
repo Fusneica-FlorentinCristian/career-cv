@@ -24,7 +24,7 @@ Software engineer with 4+ years developing .NET services, automating releases, a
 
 ### Strengths
 
-- Cloud CI/CD migration
+- Clean-agent build pipelines
 - Jenkins pipeline design
 - .NET build & release
 - Cross-team coordination
@@ -40,7 +40,8 @@ Software engineer with 4+ years developing .NET services, automating releases, a
 **DevOps Engineer** — Alten · Autodesk — Build & Release
 *Sep 2025 – Aug 2026* | C# · .NET · Jenkins · Azure · PowerShell
 
-- Moved **Jenkins build servers to Azure** for desktop add-on products with several supported software versions.
+- Adapted **Jenkins pipelines for clean Azure agents**, removing reliance on artifacts pre-cached on AWS ECS workers.
+- Traced **undocumented build dependencies** with limited version visibility; coordinated rebuilds of specialized artifacts.
 - Created **reusable Jenkins pipelines** with shared Groovy code, build options, and automatic version numbering.
 - Maintained **.NET builds and releases**: MSBuild packages, NuGet publishing, Artifactory storage, and digital-signature checks.
 - Investigated **build failures**, added coverage reports and GitHub Checks, and coordinated releases with other teams.

@@ -7,7 +7,7 @@ fusneica.florentin.cristian@gmail.com | [LinkedIn](https://www.linkedin.com/in/f
 
 ### Profile
 
-Platform engineer with 4+ years developing software and automating builds and deployments. Experience moving build servers to Azure, creating reusable Jenkins pipelines, and debugging production services. Exploring AI integrations through a personal Django/React project.
+Platform engineer with 4+ years developing software and automating builds and deployments. Experience adapting builds for clean Azure agents, creating reusable Jenkins pipelines, and debugging production services. Exploring AI integrations through a personal Django/React project.
 
 ### Best Fit
 
@@ -27,7 +27,7 @@ Platform engineer with 4+ years developing software and automating builds and de
 
 - Reusable Jenkins pipelines
 - Reusable packaging steps
-- Azure build-server migration
+- Build dependency troubleshooting
 - Developer tools & onboarding
 
 ### Platform Patterns
@@ -41,9 +41,9 @@ Platform engineer with 4+ years developing software and automating builds and de
 **Platform Engineer** — Alten · Autodesk — CI/CD Platform
 *Sep 2025 – Aug 2026* | Azure · Jenkins · Groovy · PowerShell · .NET · Artifactory
 
-- Moved **Jenkins build servers to Azure** for two desktop add-on products and four supported software versions.
+- Adapted **Jenkins pipelines for clean Azure agents**, removing reliance on artifacts pre-cached on AWS ECS workers.
 - Created **reusable Jenkins pipelines** so teams could build new branches without copying pipeline code.
-- Reworked **.NET packaging** to reuse downloaded tools and dependencies and try alternative download sources.
+- Traced **undocumented build dependencies** with limited version visibility; coordinated rebuilds of specialized artifacts.
 - Added **test-coverage reports** and CI checks with Cobertura.
 - Triggered **application integration checks** automatically after package builds.
 

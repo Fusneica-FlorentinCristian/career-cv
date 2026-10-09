@@ -42,10 +42,10 @@ Build and release engineer with 4+ years working with C#/.NET services and softw
 *Sep 2025 – Aug 2026* | .NET · MSBuild · Jenkins · PowerShell · Azure
 
 - Upgraded desktop add-on products to **.NET 10**, updating projects and dependencies for four supported versions.
-- Updated **MSBuild packages and runtime dependencies** across four or more related code repositories.
+- Traced **undocumented build dependencies** with limited version visibility; coordinated rebuilds of specialized artifacts.
 - Added **smoke tests** to check basic functionality before packaging; updated build scripts with PowerShell and MSBuild.
 - Restored **Authenticode signature checks** after the .NET 10 upgrade for supported software versions.
-- Split **package preparation** into reusable steps that cache downloads and discover NuGet dependencies.
+- Adapted **Jenkins pipelines for clean Azure agents**, removing reliance on artifacts pre-cached on AWS ECS workers.
 
 **.NET Developer** — Cognyte
 *Sep 2022 – Jul 2025* | C#/.NET · Jenkins · Ansible · Groovy · Wix
