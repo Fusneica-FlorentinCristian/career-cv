@@ -11,4 +11,11 @@ Published CV variants for **Florentin-Cristian Fusneica**.
 | [`engineer/`](engineer/) | Integration / release delivery | `engineer/cv.*` |
 | [`platform/`](platform/) | Internal platform & developer tooling | `platform/cv.*` |
 
-Open `cv.html` in a browser or send `cv.pdf` for applications. Pick the folder that matches the job posting.
+Open `cv.html` in a browser or download a PDF named for the position:
+
+- [DevOps Engineer](Fusneica_Florentin-Cristian_DevOps_Engineer_CV.pdf)
+- [.NET Engineer](dotnet/Fusneica_Florentin-Cristian_DotNet_Engineer_CV.pdf)
+- [Software Engineer](engineer/Fusneica_Florentin-Cristian_Software_Engineer_CV.pdf)
+- [Platform Engineer](platform/Fusneica_Florentin-Cristian_Platform_Engineer_CV.pdf)
+
+The existing `cv.pdf` links remain available.

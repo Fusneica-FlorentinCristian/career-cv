@@ -67,7 +67,7 @@ Software engineer with 4+ years developing .NET services, automating releases, a
 Software design · AWS · Security · Cost analysis
 
 - Designed the **architecture for a simulated online shop**: C4 diagrams, AWS/ECS deployment, STRIDE threat analysis, and operating-cost estimates.
-- **Product API in Go**: REST/gRPC APIs, Prometheus metrics, and k6 load tests.
+- **Go backend for a simulated shop**: product listing/details via REST/gRPC; Prometheus metrics and k6 load tests.
 
 ### Personal Projects
 
