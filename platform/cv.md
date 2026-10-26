@@ -42,23 +42,17 @@ Platform engineer with 4+ years developing software and automating builds and de
 *Sep 2025 – Aug 2026* | Azure · Jenkins · Groovy · PowerShell · .NET · Artifactory
 
 - Adapted **Jenkins pipelines for clean Azure agents**, removing reliance on artifacts pre-cached on AWS ECS workers.
-- Created **reusable Jenkins pipelines** so teams could build new branches without copying pipeline code.
+- Created **reusable Jenkins pipelines** with shared Groovy code, build options, and automatic version numbering.
+- Fixed **digital-signature checks** after the .NET 10 upgrade; stopped packaging when signature verification failed.
+- Added **GitHub Checks** for build/test results and Cobertura coverage reports.
 - Traced **undocumented build dependencies** with limited version visibility; coordinated rebuilds of specialized artifacts.
-- Fixed **digital-signature checks** after the .NET 10 upgrade.
-- Added **test-coverage reports** and CI checks with Cobertura.
 
 **.NET Developer** — Cognyte
-*Sep 2022 – Jul 2025* | C#/.NET · Ansible · Jenkins · Groovy · Wix
+*Sep 2022 – Jul 2025* | C#/.NET · Ansible · Jenkins · Groovy · Bitbucket · Wix
 
-- Developed and supported **40+ microservices**, including 15 core services.
+- Developed and supported **40+ microservices**, including 15 core services, from feature changes to production support.
 - Automated **builds and deployments** with Jenkins, Ansible, Groovy, and Wix.
-- Diagnosed **production failures** through remote debugging of running C#/.NET services; trained colleagues.
-
-**Earlier Roles** — CS Vision · Independent Contractor
-*2021 – 2025*
-
-- Intern (CS Vision): ASP.NET MVC / WPF maintenance and Java→WPF migration.
-- Contractor (2025): **ERP modernization** scripts and React automation.
+- Diagnosed **production and pipeline failures**, including remote debugging of running C#/.NET services; trained colleagues.
 
 ### Professional Development
 
