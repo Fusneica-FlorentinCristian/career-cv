@@ -1,58 +1,58 @@
 # Florentin-Cristian Fusneica
 
-## .NET Engineer · Build & Release Automation
+## .NET Developer · Build & Release Automation
 
 ### Contact
 fusneica.florentin.cristian@gmail.com | [LinkedIn](https://www.linkedin.com/in/fusneica-florentin) | +40 771 434 701 | Bucharest, Romania | [GitHub](https://github.com/Fusneica-FlorentinCristian)
 
 ### Profile
 
-Build and release engineer with 4+ years working with C#/.NET services and software delivery. Experience upgrading .NET products, maintaining MSBuild and NuGet packages, automating release checks, and debugging live services.
+.NET developer with 4+ years developing software and automating builds and deployments. Experience maintaining .NET releases, fixing digital-signature checks after the .NET 10 upgrade, and diagnosing production failures in C#/.NET services.
 
 ### Best Fit
 
-- **.NET build & integration**
+- **.NET releases & build engineering**
 - **Build & release automation**
-- **Software packaging & delivery**
+- **CI/CD & build troubleshooting**
 
 ### Skills
 
-- **Runtime:** C#, .NET, MSBuild, NuGet
-- **Integration:** Desktop add-ons, application builds
-- **Quality:** Smoke tests, dotnet-coverage
-- **DevOps:** Jenkins, PowerShell, Azure
-- **Scripting:** Python, PowerShell, Wix
+- **Build:** C#, .NET, MSBuild, Artifactory
+- **CI/CD:** Jenkins, Groovy, GitHub Checks
+- **Quality:** Cobertura coverage reports
+- **Cloud:** Azure, PowerShell, Python
+- **Config:** Ansible, Docker, Wix
 
 ### Strengths
 
-- .NET 10 migration & signing
-- Maintaining supported versions
-- Changes spanning related repositories
-- Legacy modernization
+- Digital signing & package checks
+- Build troubleshooting & test reports
+- Build dependency troubleshooting
+- Mentoring & onboarding
 
 ### Build Focus
 
-- Packaging software dependencies
-- Smoke & regression tests
-- Authenticode signing checks
+- Multibranch pipeline-as-code
+- Coverage reports & GitHub Checks
+- Release-branch automation
 
 ### Work Experience
 
-**.NET / Build Engineer** — Alten · Autodesk — .NET Build & Integration
-*Sep 2025 – Aug 2026* | .NET · MSBuild · Jenkins · PowerShell · Azure
+**DevOps Engineer** — Alten · Autodesk — Build & Release Platform
+*Sep 2025 – Aug 2026* | Azure · Jenkins · Groovy · PowerShell · .NET · Artifactory
 
-- Upgraded desktop add-on products to **.NET 10**, updating projects and dependencies for four supported versions.
-- Traced **undocumented build dependencies** with limited version visibility; coordinated rebuilds of specialized artifacts.
-- Added **smoke tests** to check basic functionality before packaging; updated build scripts with PowerShell and MSBuild.
-- Restored **Authenticode signature checks** after the .NET 10 upgrade for supported software versions.
+- Fixed **digital-signature checks** after the .NET 10 upgrade; stopped packaging when signature verification failed.
 - Adapted **Jenkins pipelines for clean Azure agents**, removing reliance on artifacts pre-cached on AWS ECS workers.
+- Created **reusable Jenkins pipelines** with shared Groovy code, build options, and automatic version numbering.
+- Added **GitHub Checks** for build/test results and Cobertura coverage reports.
+- Traced **undocumented build dependencies** with limited version visibility; coordinated rebuilds of specialized artifacts.
 
 **.NET Developer** — Cognyte
 *Sep 2022 – Jul 2025* | C#/.NET · Jenkins · Ansible · Groovy · Wix
 
-- Developed and supported **40+ microservices**, including 15 core services; delivered features and investigated performance issues.
-- Developed **C#/.NET service features and fixes**; attached a debugger remotely to diagnose running production services.
+- Developed and supported **40+ microservices**, including 15 core services, from feature changes to production support.
 - Automated **builds and deployments** with Jenkins, Ansible, Groovy, and Wix.
+- Diagnosed **production and pipeline failures**, including remote debugging of running C#/.NET services; trained colleagues.
 
 **Earlier Roles** — CS Vision · Independent Contractor
 *2021 – 2025*

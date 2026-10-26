@@ -34,23 +34,23 @@ Platform engineer with 4+ years developing software and automating builds and de
 
 - Configurable Jenkins build options
 - Shared Groovy libraries
-- Automatic integration checks
+- Automatic version numbering
 
 ### Work Experience
 
-**Platform Engineer** — Alten · Autodesk — CI/CD Platform
+**DevOps Engineer** — Alten · Autodesk — Build & Release Platform
 *Sep 2025 – Aug 2026* | Azure · Jenkins · Groovy · PowerShell · .NET · Artifactory
 
 - Adapted **Jenkins pipelines for clean Azure agents**, removing reliance on artifacts pre-cached on AWS ECS workers.
 - Created **reusable Jenkins pipelines** so teams could build new branches without copying pipeline code.
 - Traced **undocumented build dependencies** with limited version visibility; coordinated rebuilds of specialized artifacts.
+- Fixed **digital-signature checks** after the .NET 10 upgrade.
 - Added **test-coverage reports** and CI checks with Cobertura.
-- Triggered **application integration checks** automatically after package builds.
 
 **.NET Developer** — Cognyte
 *Sep 2022 – Jul 2025* | C#/.NET · Ansible · Jenkins · Groovy · Wix
 
-- Developed and deployed **40+ microservices**, including 15 core services.
+- Developed and supported **40+ microservices**, including 15 core services.
 - Automated **builds and deployments** with Jenkins, Ansible, Groovy, and Wix.
 - Diagnosed **production failures** through remote debugging of running C#/.NET services; trained colleagues.
 
