@@ -67,7 +67,7 @@ fusneica.florentin.cristian@gmail.com | [LinkedIn](https://www.linkedin.com/in/f
 
 Software design · AWS · Security · Cost analysis
 
-- Designed the **architecture for a simulated online shop**: C4 diagrams, AWS/ECS deployment, STRIDE threat analysis, and operating-cost estimates.
+- Wrote the final **ADR for the Cheeky Cart online-shop case study**: C4 diagrams, AWS/ECS deployment, STRIDE threat analysis, and COGS estimates.
 - **Go backend for a simulated shop**: product listing/details via REST/gRPC; Prometheus metrics and k6 load tests.
 
 ### Personal Projects
