@@ -117,22 +117,13 @@
         .entry-date { font-size: 8.5pt; color: var(--muted); font-style: italic; white-space: nowrap; }
         .entry-subtitle { font-size: 9.25pt; color: var(--muted); font-style: italic; margin-bottom: 4px; }
         .entry-tech { font-size: 9pt; color: var(--accent-strong); font-weight: 600; margin-bottom: 4px; }
-        .entry ul { list-style: none; padding-left: 0; }
+        .entry ul { list-style-type: "– "; padding-left: 13px; }
         .entry ul li {
-            position: relative;
-            padding-left: 13px;
             margin-bottom: 3px;
             font-size: 10pt;
             line-height: 1.42;
         }
-        .entry ul li::before {
-            content: "–";
-            position: absolute;
-            left: 0;
-            top: 0;
-            color: var(--accent);
-            font-weight: 700;
-        }
+        .entry ul li::marker { color: var(--accent); font-weight: 700; }
         .entry ul li strong { color: var(--accent-strong); }
         .main a {
             color: var(--accent-strong);
